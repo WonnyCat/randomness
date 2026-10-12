@@ -9,4 +9,5 @@ d1.setTime(dr);
 h = d1.getUTCHours();
 m = d1.getUTCMinutes();
 s = d1.getSeconds();
-document.write('The eyes won't change for <BR/><B>' + Math.floor(d) + ' days</B> <B>' + h + ' hours</B><BR/><B>' + m + ' min</B> <B>' + s + ' sec</B>.');
+const outputText = 'The eyes won\'t change for <BR/><B>' + Math.floor(d) + ' days</B> <B>' + h + ' hours</B><BR/><B>' + m + ' min</B> <B>' + s + ' sec</B>.';
+document.getElementById('countdown-container').innerHTML = outputText;
